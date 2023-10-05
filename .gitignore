@@ -1,0 +1,8 @@
+# Ignore the bot_directives folder
+bot_directives/
+# Ignore the .env file
+.env
+# Ignore local python virtual environment
+venv/
+# Ignore user defined data
+profile_pictures/

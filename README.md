@@ -47,4 +47,4 @@ This bot's language processing capabilities stems from [gpt4f](https://github.co
 
 ## License
 
-This program is licensed under the [MIT License](https://github.com/ErikNguyen20/chatbot/blob/main/LICENSE)
+This program is licensed under the [MIT License](https://github.com/ErikNguyen20/AuroraGlazedAI/blob/main/LICENSE)

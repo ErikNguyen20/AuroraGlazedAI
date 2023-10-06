@@ -39,7 +39,7 @@ To get started with this Discord Chatbot, follow these steps:
    
 4. Ensure that your bot has the following minimum permissions. Then you may add it to your server.
    
-   ![permissions](https://github.com/ErikNguyen20/chatbot/assets/93726181/eb504433-6a28-427a-bfff-e7fdf69841a4)
+   ![permissions](https://github.com/ErikNguyen20/AuroraGlazedAI/assets/93726181/4855f24a-8a0e-4a65-b847-80665ac43045)
 
 ## Acknowledgments
 

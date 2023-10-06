@@ -44,6 +44,7 @@ class LLM:
                     response = await ChatCompletion.create_async(model=models.default, messages=all_messages_raw,
                                                                      provider=provider)
                     if self.determine_if_valid_response(response):
+                        print(f"\tSUCCESS with PROVIDER: {provider.__name__}")
                         return response
                 except Exception as e:
                     print(f"\tPROVIDER: {provider.__name__} \tERROR: {str(e)}")

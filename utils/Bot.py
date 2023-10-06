@@ -328,7 +328,7 @@ class DiscordBot:
         inference_task = asyncio.create_task(self.generate_conversation_response(message))
 
         # Gives random delay to then start typing indicator
-        await asyncio.sleep(random.uniform(2, 6))
+        await asyncio.sleep(random.uniform(2, 5))
 
         # Starts typing indicator if the task is not done.
         async with message.channel.typing():

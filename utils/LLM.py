@@ -1,7 +1,7 @@
 from typing import Optional, List
 
 from tiktoken import get_encoding
-import g4f
+from g4f import ChatCompletion, models
 from g4f.Provider import (Bard, H2o)  # NON-GPT
 
 # Information about each provider
@@ -41,7 +41,7 @@ class LLM:
                     continue
                 try:
                     # Retrieves response from g4f provider
-                    response = await g4f.ChatCompletion.create_async(model=g4f.models.default, messages=all_messages_raw,
+                    response = await ChatCompletion.create_async(model=models.default, messages=all_messages_raw,
                                                                      provider=provider)
                     if self.determine_if_valid_response(response):
                         return response

@@ -9,7 +9,7 @@ import asyncio
 from queue import SimpleQueue
 import random
 
-from LLM import LLM
+from utils.LLM import LLM
 
 
 class BotDataManager:

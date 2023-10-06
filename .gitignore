@@ -6,3 +6,9 @@ bot_directives/
 venv/
 # Ignore user defined data
 profile_pictures/
+
+# Ignore other defined files
+.idea/
+utils/__pycache__/
+**/__pycache__/
+__pycache__/

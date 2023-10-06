@@ -1,20 +1,14 @@
 # 🌃 AuroraGlazed AI 🤖
 
-This chatbot is designed to run on the Discord platform and leverages Large Language Model (LLM) technology to provide intelligent responses to users' messages. It allows you to customize the bot's behavior by assigning specific roles to control its responses.
+Welcome AuroraGlazed, a chatbot designed to run on the Discord social media platform. It leverages Large Language Model (LLM) technology to provide contextual and intelligent responses to users' messages. It also allows you to customize the its behavior by assigning specific roles to control its responses. However you want the chatbot to act or behave is entirely up to you.
 
 *This bot was made as a personal project of mine.*
-
-<br/>
-
-This bot's language processing capabilities stems from [gpt4f](https://github.com/xtekky/gpt4free/tree/main) by [xtekky](https://github.com/xtekky).
-
-<br/>
 
 ## Features
 
 - **Intelligent Responses**: The bot utilizes LLM technology to generate context-aware and human-like responses to user messages.
 
-- **Customizable Roles**: Customize the bot's behavior by assigning specific roles to control how it responds to different users or channels.
+- **Customizable Roles**: Customize the bot's behavior by assigning specific roles to control how it responds.
 
 - **Easy Integration**: This bot is implemented in Python and can be easily integrated into any Discord server with the appropriate permissions.
 
@@ -42,6 +36,14 @@ To get started with this Discord Chatbot, follow these steps:
    BOT_TOKEN = <INSERT BOT TOKEN HERE>
    OWNER_USER_ID = <INSERT OWNER USER ID HERE>
    ```
+   
+4. Ensure that your bot has the following minimum permissions. Then you may add it to your server.
+   
+   ![permissions](https://github.com/ErikNguyen20/chatbot/assets/93726181/eb504433-6a28-427a-bfff-e7fdf69841a4)
+
+## Acknowledgments
+
+This bot's language processing capabilities stems from [gpt4f](https://github.com/xtekky/gpt4free/tree/main) by [xtekky](https://github.com/xtekky).
 
 ## License
 

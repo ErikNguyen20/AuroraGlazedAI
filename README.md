@@ -1,4 +1,4 @@
-# 🌃 AuroraGlazed AI 🤖
+# 🌌 AuroraGlazed AI 🤖
 
 Welcome AuroraGlazed, a chatbot designed to run on the Discord social media platform. It leverages Large Language Model (LLM) technology to provide contextual and intelligent responses to users' messages. It also allows you to customize its behavior by assigning specific roles to control its responses. However you want the chatbot to act or behave is entirely up to you.
 

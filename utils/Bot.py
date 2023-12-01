@@ -164,10 +164,10 @@ class BotDataManager:
         else:
             return "guild_" + str(message.guild.id)
 
-    async def download_personality_from_attachment(self, attachment: discord.Attachment) -> bool:
+    def download_personality_from_attachment(self, attachment: discord.Attachment) -> bool:
         # Downloads a txt personality file into the roles directory
         try:
-            await attachment.save(fp=os.path.join(self.roles_data_path, attachment.filename))
+            attachment.save(fp=os.path.join(self.roles_data_path, attachment.filename))
         except Exception as e:
             print(f"[ERROR] Failed to download personality file. {str(e)}")
             return False
@@ -449,7 +449,7 @@ class DiscordBot:
                     return
 
                 # Download personality file into the directory
-                result = await self.Data.download_personality_from_attachment(attachment)
+                result = self.Data.download_personality_from_attachment(attachment)
                 if result:
                     await self.send_message(message, f"Personality {attachment.filename} added!", message)
                 else:

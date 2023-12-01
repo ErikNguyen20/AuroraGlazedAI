@@ -15,7 +15,7 @@ if __name__ == "__main__":
 
     # Access the environment variables (REQUIRED)
     BOT_TOKEN = os.getenv("BOT_TOKEN")
-    OWNER_USER_ID = os.getenv("OWNER_USER_ID")
+    OWNER_USER_ID = int(os.getenv("OWNER_USER_ID"))
     # (Optional)
     BOT_JOIN_URL = os.getenv("BOT_JOIN_URL")
 
